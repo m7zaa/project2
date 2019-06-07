@@ -71,3 +71,6 @@ p {
   color: #04265b;
   font-style: italic;
 }
+img {
+  max-width: 90px;
+}

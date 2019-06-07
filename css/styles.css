@@ -47,7 +47,6 @@
 margin-left: 50px;
 margin-right: 20px;
 margin-top: 20px;
-margin-bottom: 20px;
 font-weight: bold;
 color: #04265b;
 border: 1px dotted blue;
@@ -72,5 +71,9 @@ p {
   font-style: italic;
 }
 img {
-  max-width: 90px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-bottom: 40px;
 }

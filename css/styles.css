@@ -1,0 +1,30 @@
+.hidden {
+  display: none;
+}
+#submitButton {
+  color: #e5d875;
+  background: purple;
+}
+#sopranos {
+  color: #e5d875;
+  background: purple;
+}
+#pizza {
+  color: #e5d875;
+  background: purple;
+}
+#thunderstorms {
+  color: #e5d875;
+  background: purple;
+}
+#hiking {
+  color: #e5d875;
+  background: purple;
+}
+#coffee {
+  color: #e5d875;
+  background: purple;
+}
+body {
+  background-color: #e5d875;
+}

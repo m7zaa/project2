@@ -1,19 +1,23 @@
 .hidden {
   display: none;
+  align-content: center;
 }
 .container {
   border: 5px solid #1f3960;
   background-color: #c7d6ed;
   max-width: 700px;
+  border-radius: 100px;
 }
 .container2 {
   border: 2px dotted blue;
+    border-radius: 200px;
 }
 .programming-language {
   border: 1px solid blue;
   border-style: dotted;
+  border-radius: 200px;
   background-color: white;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   font-weight: bold;
   margin-top: 30px;
@@ -23,28 +27,30 @@
   color: #e5d875;
   background: purple;
   margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-/* #sopranos {
-  color: #e5d875;
-  background: teal;
-} */
-/* #pizza {
-  color: #e5d875;
-  background: teal;
-} */
-/* #thunderstorms {
-  color: #e5d875;
-  background: teal;
+#sopranos {
+  color: #04265b;
+  background: #c7d6ed;
+}
+#pizza {
+  color: #04265b;
+  background: #c7d6ed;
+}
+#thunderstorms {
+  color: #04265b;
+  background: #c7d6ed;
 }
 #hiking {
-  color: #e5d875;
-  background: teal;
+  color: #04265b;
+  background: #c7d6ed;
 }
 #coffee {
-  color: #e5d875;
-  background: teal;
+  color: #04265b;
+  background: #c7d6ed;
   align-content: center;
-} */
+}
 #label {
 margin-left: 20px;
 margin-right: 20px;
@@ -52,10 +58,22 @@ margin-top: 20px;
 font-weight: bold;
 color: #04265b;
 position: static;
-background-color: white;
+
 }
-#ruby img {
-  align-
+#ruby {
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+#python {
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+#rust {
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 50px;
 }
 body {
   background-color: #a4c6f9;
@@ -69,6 +87,8 @@ h1  {
   font-style: bold;
   text-align: center;
   color: purple;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 p {
   color: #04265b;
@@ -76,12 +96,23 @@ p {
   max-width: 400px;
   text-align: center;
   margin-left: 110px;
+  /* margin-top: 30px; */
 }
 img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 200px;
+}
+.container2 img {
   height: 100px;
   width: 100px;
   object-fit: cover;
   margin-left: 50px;
   margin-bottom: 20px;
   margin-top: 20px;
+  border-radius: 200px;
 }

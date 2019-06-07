@@ -4,10 +4,12 @@
 .container {
   border: 5px solid #1f3960;
   background-color: #c7d6ed;
+  max-width: 700px;
 }
 .programming-language {
   border: 1px solid blue;
   border-style: dotted;
+  background-color: teal;
   padding: 10px;
   text-align: center;
   font-weight: bold;
@@ -39,12 +41,19 @@
 #coffee {
   color: #e5d875;
   background: teal;
+  align-content: center;
 }
 #label {
 margin-left: 50px;
-margin-right: 10px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
 font-weight: bold;
 color: #04265b;
+border: 1px dotted blue;
+border-style: double;
+position: static;
+background-color: #e5d875;
 }
 body {
   background-color: #a4c6f9;
@@ -54,10 +63,11 @@ div {
   margin: 20px;
 }
 h1  {
-  font-style: italic;
+  font-style: bold;
   text-align: center;
-  color: #04265b;
+  color: purple;
 }
 p {
   color: #04265b;
+  font-style: italic;
 }

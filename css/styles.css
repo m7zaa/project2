@@ -10,7 +10,7 @@
 }
 .container2 {
   border: 2px dotted blue;
-    border-radius: 200px;
+  border-radius: 200px;
 }
 .programming-language {
   border: 1px solid blue;
@@ -77,7 +77,7 @@ position: static;
 }
 body {
   background-color: #a4c6f9;
-  font: verdana;
+  font-family: "Times New Roman", Times, serif;
 }
 div {
   margin: 20px;
@@ -89,6 +89,7 @@ h1  {
   color: purple;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-family: "Times New Roman", Times, serif;
 }
 p {
   color: #04265b;

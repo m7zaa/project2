@@ -8,16 +8,16 @@ $(document).ready(function() {
     // console.log(thunderstorms);
     var hiking = $("select#hiking").val();
     var coffee = $("select#coffee").val();
-    var sopranos = $("select#sopranos").val();
+    var paulie = $("select#paulie").val();
     var name = $("input#name").val();
     // console.log("name");
     $(".name").text(name);
-    if (pizza === "yes" && thunderstorms === "yes" && hiking === "yes" && coffee === "yes" && sopranos === "yes"){
+    if (pizza === "yes" && thunderstorms === "yes" && hiking === "yes" && coffee === "yes" && paulie === "yes"){
       // console.log("pizza yes.");
       $(".programming-language").hide();
       $("#ruby").show();
-    } else if (pizza === "no" && thunderstorms === "no" && hiking === "no" && coffee === "no" && sopranos === "no"){
-      // console.log("sopranos no");
+    } else if (pizza === "no" && thunderstorms === "no" && hiking === "no" && coffee === "no" && paulie === "no"){
+      // console.log("paulie no");
       $(".programming-language").hide();
       $("#python").show();
     } else {
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 
 
-    //   else if (pizza === "yes" && thunderstorms === "yes" && hiking === "yes" && coffee === "yes" && sopranos === "no"){
+    //   else if (pizza === "yes" && thunderstorms === "yes" && hiking === "yes" && coffee === "yes" && paulie === "no"){
     //     $(".programming-language").hide();
     // }
 

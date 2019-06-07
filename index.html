@@ -1,110 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <title>Programming Language Suggester</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Programming Language Suggester</h1>
-        <div>
-        <p><emphasis><strong>Answer our 5 question survey to find which programing language is best for you.</strong></emphasis></p>
-        </div>
-        <!-- Below are the selectors -->
-        <form class="survey" action="index.html" method="submit">
-          <div class ="container2">
-            <img src="img/pizza.jpg" alt="A photo of pizza.">
-            <label for="pizza" id="label">Do You Like Pizza?<alt="A photo of pizza."></label>
-            <select id="pizza" name="pizza">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div class ="container2">
-            <img src="img/thunderstorm.jpg" alt="A photo of a thunderstorm.">
-            <label for="thunderstorms" id="label">Do You Like Thunderstorms?</label>
-            <select id="thunderstorms" name="thunderstorms">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div class ="container2">
-            <img src="img/hiking.jpg" alt="A photo of Micah hiking Coyote Wall.">
-            <label for="hiking" id="label">Do You Like Hiking?</label>
-            <select id="hiking" name="hiking">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div class ="container2">
-            <img src="img/coffee.jpg" alt="A photo of a cup of espresso.">
-            <label for="coffee" id="label">Do You Like Coffee?</label>
-            <select id="coffee" name="coffee">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div class ="container2">
-            <img src="img/sopranos.jpg" alt="An image of Paulie Walnuts.">
-            <label for="sopranos" id="label">Do You Like The Sopranos?</label>
-            <select id="sopranos" name="sopranos">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div class="button-holder">
-            <button type="submit" name="submitButton" id="submitButton">Submit!</button>
-          </div>
-        </form>
-        <!-- Here are ther hidden results- -->
-        <div class="hidden programming-language" id="ruby">
-          <p>You would be best suited for Ruby! Click <a href="https://www.ruby-lang.org/en/">here</a> to learn more.</p>
-          <img src="img/ruby.jpg" alt="Ruby logo.">
-        </div>
-        <div class="hidden programming-language" id="python">
-          <p>You would be best suited for Python! Click <a href="https://www.python.org/">here</a> to learn more.</p>
-          <img src="img/python.jpg" alt="Python logo.">
-        </div>
-        <div class="hidden programming-language" id="rust">
-          <p>You would be best suited for Rust! Click <a href="https://www.rust-lang.org/">here</a> to learn more.</p>
-          <img src="img/rust.jpg" alt="Rust logo.">
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Programming Language Suggester</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Programming Language Suggester</h1>
+    <div>
+      <p><emphasis><strong>Answer our 5 question survey to find which programing language is best for you.</strong></emphasis></p>
     </div>
-  </body>
+    <!-- Below are the selectors -->
+    <form class="survey" action="index.html" method="submit">
+
+
+      <div class="container1">
+        <label for="name" id="label">Name:</label>
+        <input type="text" name="name" id="name" value="">
+      </div>
+
+
+      <div class ="container2">
+        <img src="img/pizza.jpg" alt="A photo of pizza.">
+        <label for="pizza" id="label">Do You Like Pizza?<alt="A photo of pizza."></label>
+        <select id="pizza" name="pizza">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class ="container2">
+        <img src="img/thunderstorm.jpg" alt="A photo of a thunderstorm.">
+        <label for="thunderstorms" id="label">Do You Like Thunderstorms?</label>
+        <select id="thunderstorms" name="thunderstorms">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class ="container2">
+        <img src="img/hiking.jpg" alt="A photo of Micah hiking Coyote Wall.">
+        <label for="hiking" id="label">Do You Like Hiking?</label>
+        <select id="hiking" name="hiking">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class ="container2">
+        <img src="img/coffee.jpg" alt="A photo of a cup of espresso.">
+        <label for="coffee" id="label">Do You Like Coffee?</label>
+        <select id="coffee" name="coffee">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class ="container2">
+        <img src="img/sopranos.jpg" alt="An image of Paulie Walnuts.">
+        <label for="sopranos" id="label">Do You Like The Sopranos?</label>
+        <select id="sopranos" name="sopranos">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class="button-holder">
+        <button type="submit" name="submitButton" id="submitButton">Submit!</button>
+      </div>
+    </form>
+    <!-- Here are ther hidden results- -->
+    <div class="hidden programming-language" id="ruby">
+      <p><span class="name"></span>, you would be best suited for Ruby! Click <a href="https://www.ruby-lang.org/en/">here</a> to learn more.</p>
+      <img src="img/ruby.jpg" alt="Ruby logo.">
+    </div>
+    <div class="hidden programming-language" id="python">
+      <p><span class="name"></span>, you would be best suited for Python! Click <a href="https://www.python.org/">here</a> to learn more.</p>
+      <img src="img/python.jpg" alt="Python logo.">
+    </div>
+    <div class="hidden programming-language" id="rust">
+      <p><span class="name"></span>, you would be best suited for Rust! Click <a href="https://www.rust-lang.org/">here</a> to learn more.</p>
+      <img src="img/rust.jpg" alt="Rust logo.">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</body>
 </html>

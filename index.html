@@ -10,39 +10,41 @@
   <body>
     <div class="container">
       <h1>Programming Language Suggester</h1>
-        <p><emphasis><strong>Find Which Programing Language Is Best For You? Answer Our 5 Questions To Find Out!</strong></emphasis></p>
+        <div>
+        <p><emphasis><strong>Answer our 5 question survey to find which programing language is best for you.</strong></emphasis></p>
+        </div>
         <!-- Below are the selectors -->
         <form class="survey" action="index.html" method="submit">
           <div>
-            <label for="pizza">Do You Like Pizza?</label>
+            <label for="pizza" id="label">Do You Like Pizza?</label>
             <select id="pizza" name="pizza">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
           </div>
           <div>
-            <label for="thunderstorms">Do You Like Thunderstorms?</label>
+            <label for="thunderstorms" id="label">Do You Like Thunderstorms?</label>
             <select id="thunderstorms" name="thunderstorms">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
           </div>
           <div>
-            <label for="hiking">Do You Like Hiking?</label>
+            <label for="hiking" id="label">Do You Like Hiking?</label>
             <select id="hiking" name="hiking">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
           </div>
           <div>
-            <label for="coffee">Do You Like Coffee?</label>
+            <label for="coffee" id="label">Do You Like Coffee?</label>
             <select id="coffee" name="coffee">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
           </div>
           <div>
-            <label for="sopranos">Do You Like The Sopranos?</label>
+            <label for="sopranos" id="label">Do You Like The Sopranos?</label>
             <select id="sopranos" name="sopranos">
               <option value="yes">Yes</option>
               <option value="no">No</option>
@@ -60,7 +62,7 @@
           <p>You would be best suited for Python! Click here to learn more.</p>
         </div>
         <div class="hidden programming-language" id="rust">
-          <p>You would be best suited for Rust! Click here to learn more.</p>  
+          <p>You would be best suited for Rust! Click here to learn more.</p>
         </div>
 
 

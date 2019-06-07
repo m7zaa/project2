@@ -1,30 +1,63 @@
 .hidden {
   display: none;
 }
+.container {
+  border: 5px solid #1f3960;
+  background-color: #c7d6ed;
+}
+.programming-language {
+  border: 1px solid blue;
+  border-style: dotted;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  font-stretch: extra-expanded;
+
+}
 #submitButton {
   color: #e5d875;
   background: purple;
+  margin-left: 50px;
 }
 #sopranos {
   color: #e5d875;
-  background: purple;
+  background: teal;
 }
 #pizza {
   color: #e5d875;
-  background: purple;
+  background: teal;
 }
 #thunderstorms {
   color: #e5d875;
-  background: purple;
+  background: teal;
 }
 #hiking {
   color: #e5d875;
-  background: purple;
+  background: teal;
 }
 #coffee {
   color: #e5d875;
-  background: purple;
+  background: teal;
+}
+#label {
+margin-left: 50px;
+margin-right: 10px;
+font-weight: bold;
+color: #04265b;
 }
 body {
-  background-color: #e5d875;
+  background-color: #a4c6f9;
+  font: verdana;
+}
+div {
+  margin: 20px;
+}
+h1  {
+  font-style: italic;
+  text-align: center;
+  color: #04265b;
+}
+p {
+  color: #04265b;
 }

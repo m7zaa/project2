@@ -6,7 +6,7 @@
 
 ## Description
 
-_This app was made to practice branching, jQuery, forms and other coding. It consists of five yes/no questions. Depending on how one answers, they will receive a programming-language "suggestion". This is not a real survey. It is simply a practice exercise.
+_This app was made to practice branching, jQuery, forms and other coding. It consists of five yes/no questions. Depending on how one answers, they will receive a programming-language "suggestion". This is not a real survey. It is simply a practice exercise._
 
 ## Setup/Installation Requirements
 

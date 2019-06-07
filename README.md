@@ -15,18 +15,18 @@ _This app was made to practice branching, jQuery, forms and other coding. It con
 
 ## Known Bugs
 
-_{There are no know bugs. If any bugs are found, please contact me at the contact info below.}_
+_There are no know bugs. If any bugs are found, please contact me at the contact info below._
 
 ## Support and contact details
 
-_{Micah Zaayer micahzaayer@gmail.com}_
+_Micah Zaayer micahzaayer@gmail.com_
 
 ## Technologies Used
 
-_{HTML, CSS and Bootstrap, JavaScript and jQuery}_
+_HTML, CSS and Bootstrap, JavaScript and jQuery_
 
 ### License
 
-*{This software is licensed under the MIT license.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2019 **_{Micah Zaayer}_**
+Copyright (c) 2019 **_Micah Zaayer_**
